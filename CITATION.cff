@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use Algo2Lean in your research, please cite this software."
 type: software
 title: "Algo2Lean"
-version: "0.1.0-dev"
+version: "0.1.0"
 authors:
   - family-names: "Hu"
     given-names: "Lunjia"
@@ -10,4 +10,3 @@ authors:
     given-names: "Chutong"
 license: "Apache-2.0"
 repository-code: "https://github.com/lunjiah/algo2lean"
-abstract: "Development version; no numbered public release has been published yet."

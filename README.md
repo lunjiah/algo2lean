@@ -10,7 +10,11 @@ Created by Lunjia Hu, with contributions from Chutong Yang.
 
 ## Get started
 
-With Python 3.9 or newer, run from the repository root:
+[Open the browser compiler](https://lunjiah.github.io/algo2lean/) to compile
+algorithms without installing anything. Compilation stays in your browser; Lean
+proof checking requires the local editor.
+
+To run locally with Python 3.9 or newer, use the repository root:
 
 ```sh
 python3 -m algo2lean serve --open

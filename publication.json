@@ -1,7 +1,7 @@
 {
   "title": "Algo2Lean",
-  "version": "0.1.0-dev",
-  "status": "development",
+  "version": "0.1.0",
+  "status": "release",
   "authors": [
     {
       "given_names": "Lunjia",

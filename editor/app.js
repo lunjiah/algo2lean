@@ -1454,6 +1454,8 @@
   if (backend?.hosted) {
     $("generation-tools").hidden = false;
     $("browser-runtime-status").hidden = false;
+    $("hosted-proof-notice").hidden = false;
+    $("proof-workflow-step").textContent = "Explore supplied proofs or write your own Lean analysis.";
     $("check-button").textContent = "Check locally";
     $("analyze-button").title = "Lean checking requires the local editor";
     $("compilation-description").textContent = "This website runs the Python compiler in your browser. Your source and proof files stay on your device; compilation does not send them to a server. The first visit downloads the pinned compiler and Python runtime. Lean proof checking requires a local Lean installation. Save or download files for a durable copy.";

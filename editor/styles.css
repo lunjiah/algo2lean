@@ -238,6 +238,7 @@ pre, code, kbd { font-family: var(--mono); }
 
 .analysis-pane { margin-top: 22px; border: 1px solid #cbd7e4; border-radius: 8px; overflow: hidden; }
 .analysis-pane > .pane-heading { background: #f4f7fb; flex-wrap: wrap; }
+.hosted-proof-notice { margin: 0; padding: 14px 18px; border-bottom: 1px solid var(--border); background: var(--teal-soft); color: var(--ink); font-size: 13px; line-height: 1.7; }
 .analysis-toolbar { padding: 10px 18px; border-bottom: 1px solid var(--border); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 18px; }
 .analysis-toolbar .file-controls { flex-wrap: wrap; }
 .proof-outline { padding: 14px 18px; border-bottom: 1px solid var(--border); background: var(--surface); scroll-margin-top: 16px; }

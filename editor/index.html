@@ -40,7 +40,7 @@
       <ol class="workflow" aria-label="Getting started">
         <li>Choose an example or open a file.</li>
         <li>Compile and explore the Lean interface.</li>
-        <li>Write and check a proof in Lean analysis.</li>
+        <li id="proof-workflow-step">Write and check a proof in Lean analysis.</li>
       </ol>
     </section>
     <section id="editor" class="document-toolbar" aria-label="Document controls">
@@ -167,6 +167,7 @@
         <div class="pane-title"><span class="pane-dot lean-dot" aria-hidden="true"></span><h2 id="analysis-heading">Lean analysis</h2><span id="analysis-state" class="state-tag">Not checked</span></div>
         <button id="analyze-button" class="button button-primary" type="button" title="Check analysis (⌘ / Ctrl Enter in the analysis editor)">Check analysis <kbd class="analysis-shortcut">⌘ ↵</kbd></button>
       </div>
+      <p id="hosted-proof-notice" class="hosted-proof-notice" hidden><strong>Proof checking is not currently available on this website.</strong> You can check the supplied proofs using your own Lean installation or an editor with Lean support. Use Save analysis to download a proof.</p>
       <div class="analysis-toolbar">
         <div class="file-controls">
           <div class="filename-field"><label for="analysis-filename">Analysis file</label><input id="analysis-filename" value="Analysis.lean" maxlength="255" spellcheck="false" autocomplete="off" aria-describedby="analysis-save-state"></div>
